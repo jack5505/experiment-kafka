@@ -26,6 +26,7 @@ public class KafkaConfig {
         map.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,kafka);
         return map;
     }
+
     @Bean
     public ConcurrentKafkaListenerContainerFactory<String, Person> person(){
         return buildContainerFactory(Person.class);
