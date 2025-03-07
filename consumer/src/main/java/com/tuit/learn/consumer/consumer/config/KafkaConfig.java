@@ -23,6 +23,7 @@ public class KafkaConfig {
     public Map<String,Object> config(){
         Map<String,Object> map = new HashMap<>();
         map.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,kafka);
+        map.put(ConsumerConfig.GROUP_ID_CONFIG,"consumer.group.id");
         return map;
     }
 

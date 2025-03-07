@@ -28,7 +28,7 @@ public class ProducerConfigKafka {
         config.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,server);
         config.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         config.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
-        config.put(ProducerConfig.CLIENT_ID_CONFIG,1);
+        config.put(ProducerConfig.CLIENT_ID_CONFIG,"1");
         return config;
     }
 
