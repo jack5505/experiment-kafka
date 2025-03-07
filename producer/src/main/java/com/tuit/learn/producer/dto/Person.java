@@ -1,4 +1,4 @@
-package com.tuit.learn.producer.config.dto;
+package com.tuit.learn.producer.dto;
 
 public record Person(String fullname, Integer age) {
 }

@@ -1,8 +1,7 @@
-package com.tuit.learn.producer.config;
+package com.tuit.learn.consumer.consumer.config;
 
-import com.tuit.learn.producer.config.dto.Person;
+import com.tuit.learn.consumer.consumer.config.dto.Person;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.common.protocol.types.Field;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
