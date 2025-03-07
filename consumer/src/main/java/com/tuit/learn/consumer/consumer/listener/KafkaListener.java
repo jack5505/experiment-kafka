@@ -25,4 +25,25 @@ public class KafkaListener {
     }
 
 
+    @org.springframework.kafka.annotation.KafkaListener(
+            topics = "person-topic",
+            containerFactory = "person",
+            groupId = "third"
+    )
+    public void listenTopic3(@Payload Person person) {
+        System.out.println(person + " third");
+    }
+
+    @org.springframework.kafka.annotation.KafkaListener(
+            topics = "person-topic",
+            containerFactory = "person",
+            groupId = "third"
+    )
+    public void listenTopic4(@Payload Person person) {
+        System.out.println(person + " fourth");
+    }
+
+
+
+
 }
