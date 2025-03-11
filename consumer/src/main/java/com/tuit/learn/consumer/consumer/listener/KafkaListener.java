@@ -1,6 +1,7 @@
 package com.tuit.learn.consumer.consumer.listener;
 
-import com.tuit.learn.consumer.consumer.config.dto.Person;
+
+import com.tuit.learn.data.Person;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 

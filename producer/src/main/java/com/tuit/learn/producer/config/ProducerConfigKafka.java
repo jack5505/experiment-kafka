@@ -1,6 +1,7 @@
 package com.tuit.learn.producer.config;
 
-import com.tuit.learn.producer.dto.Person;
+
+import com.tuit.learn.data.Person;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

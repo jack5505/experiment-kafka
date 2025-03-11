@@ -1,7 +1,8 @@
 package com.tuit.learn.producer.controller;
 
 
-import com.tuit.learn.producer.dto.Person;
+
+import com.tuit.learn.data.Person;
 import com.tuit.learn.producer.sender.KafkaSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

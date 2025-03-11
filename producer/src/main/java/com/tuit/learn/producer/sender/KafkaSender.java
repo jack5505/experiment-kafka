@@ -1,7 +1,7 @@
 package com.tuit.learn.producer.sender;
 
-import com.tuit.learn.producer.dto.Person;
-import lombok.RequiredArgsConstructor;
+
+import com.tuit.learn.data.Person;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Autowired;
